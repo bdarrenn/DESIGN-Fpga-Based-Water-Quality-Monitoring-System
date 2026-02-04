@@ -1,0 +1,27 @@
+# KiCad generated files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backup.*
+*.pro-bak
+*.net
+*.erc
+*.drl
+*.gbr
+*.gko
+*.pos
+*.zip
+*.pdf
+*.svg
+/plots/
+/gerbers/
+/bom/
+*.lck               # Lock files
+*.cache             # Cache files
+fp-info-cache
+fp-lib-table
+sym-lib-table
+
+# Large binaries (use git LFS instead if needed)
+*.step
+*.wrl
+*.3dshapes/
