@@ -327,6 +327,219 @@
 			)
 		)
 	)
+	(footprint "1_CustomFootprints:I2C-BACKPACK-LCD"
+		(layer "F.Cu")
+		(uuid "1952cd86-79dc-480d-963f-18ce162caf78")
+		(at 175 74.71)
+		(property "Reference" "REF**"
+			(at 0.38 -7.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "90a8e54a-d6ba-4b3f-ba72-566670451e69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "I2C-BACKPACK-LCD"
+			(at 0.38 7.25 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "24d3275f-b4cc-4c81-9021-a4fa9e1a3ba7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b4ecaa1-ddb5-4d6c-a839-d3bae72ead0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d68d6b1-a316-46af-aa0e-063cc46b3910")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_line
+			(start -3.12 -6.25)
+			(end 2.88 -6.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "6760da7d-eb46-49ba-adbb-a81701e53b0f")
+		)
+		(fp_line
+			(start -3.12 6.25)
+			(end -3.12 -6.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a9cbcf00-2b83-4c5e-9143-e2e8d477e8aa")
+		)
+		(fp_line
+			(start 2.88 -6.25)
+			(end 2.88 6.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "541d3a91-8f31-46b0-9d94-e52839a0c57e")
+		)
+		(fp_line
+			(start 2.88 6.25)
+			(end -3.12 6.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "96816ba0-c38b-4afb-bd48-d77bee44cd75")
+		)
+		(fp_text user "VCC"
+			(at -2.62 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0991d3af-5deb-4ddb-a78e-9d27a26b1871")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "GND"
+			(at -2.62 -3.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6bdadea1-0a18-432e-811c-3b97e28cd323")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "SCL"
+			(at -2.62 4.25 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6e91cf40-6c89-4962-bad2-a37a168340e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "SDA"
+			(at -2.62 1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "782c032b-3960-403b-9b23-1ff6919e535e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 1.5 -3.83)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "275cd3f3-8330-43e4-b799-9ab517babb6e")
+		)
+		(pad "2" thru_hole circle
+			(at 1.5 -1.29)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "65cc9cf8-0a31-47c8-b47a-e43ad2ab0935")
+		)
+		(pad "3" thru_hole circle
+			(at 1.5 1.25)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "858beb6c-fab2-4c22-8d8d-faa14558e8aa")
+		)
+		(pad "4" thru_hole circle
+			(at 1.5 3.79)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "f4502891-fe2e-433c-94f4-8ded60e27c91")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layer "F.SilkS")
+			(uuid "b659231c-4d47-469e-9a3c-bfc8721ee5d3")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints not_allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 171.88 68.46) (xy 177.88 68.46) (xy 177.88 80.96) (xy 171.88 80.96)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Package_SO:VSSOP-10_3x3mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "71a3f987-ab75-4ba1-bcd2-22df9d8f00ae")
@@ -1778,7 +1991,7 @@
 	)
 	(gr_rect
 		(start 66.5 34)
-		(end 184 138.5)
+		(end 184 133.5)
 		(stroke
 			(width 0.2)
 			(type default)
