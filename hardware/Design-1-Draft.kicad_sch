@@ -5156,7 +5156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_CustomFootprints:TDS-ANALOG-SENSOR"
 			(at 54.61 102.87 0)
 			(effects
 				(font
@@ -5244,7 +5244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1_CustomFootprints:SRT_MPT1584EN_Module"
 			(at 104.14 34.29 0)
 			(effects
 				(font
