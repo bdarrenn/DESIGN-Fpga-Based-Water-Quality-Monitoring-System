@@ -94,7 +94,7 @@
 		(layer "F.SilkS")
 		(uuid "7209517c-ce23-429e-9af9-ae126342b47b")
 	)
-	(fp_text user "VCC"
+	(fp_text user "SDA"
 		(at -2.62 -0.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -107,7 +107,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "SCL"
+	(fp_text user "GND"
 		(at -2.62 4.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -120,7 +120,7 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "SDA"
+	(fp_text user "VCC"
 		(at -2.62 1.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -133,8 +133,8 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "GND"
-		(at -2.62 -3.25 0)
+	(fp_text user "SCL"
+		(at -2.75 -3.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "beb4c3b5-2b72-484a-ad4d-95328963d43f")
