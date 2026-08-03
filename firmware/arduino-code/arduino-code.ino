@@ -500,3 +500,27 @@ void processSerial() {
     Serial.println(F("Unknown command. Type HELP"));
   }
 }
+
+/*void updateLcd(float ph, float tds, PhStatus phSt, TdsStatus tdsSt, bool bothIdeal) {
+  char line1[17];
+  char line2[17];
+
+  if (!bothIdeal) {
+    // D7 is HIGH -> show "dispensing"
+    snprintf(line1, sizeof(line1), "dispensing");
+    snprintf(line2, sizeof(line2), "pH%.2f TDS%.0f", ph, tds);
+  } else {
+    // D7 is LOW -> show normal pH/TDS status
+    snprintf(line1, sizeof(line1), "pH%.2f %s", ph, phStatusShort(phSt));
+    snprintf(line2, sizeof(line2), "TDS%.0f %s", tds, tdsStatusShort(tdsSt));
+  }
+
+  lcd.setCursor(0, 0);
+  lcd.print(line1);
+  for (int i = strlen(line1); i < 16; i++) lcd.print(' ');
+
+  lcd.setCursor(0, 1);
+  lcd.print(line2);
+  for (int i = strlen(line2); i < 16; i++) lcd.print(' ');
+}*/
+
